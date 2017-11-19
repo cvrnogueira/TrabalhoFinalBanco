@@ -1,0 +1,24 @@
+package bdLeilao;
+
+import java.sql.Date;
+
+public class Leilao {
+
+	private Date iniDate;
+	private User ownerUser;
+	private double minimunPrice;
+	private User winnerUser; //usuario vencedor(está sempre sendo atualizado p o q dá o maior lance)
+	private String shortDescription;
+	private String longDescription;
+	
+	public Leilao() {
+	
+	}
+	
+	public void endLeilao() {
+		
+	}
+	public void newWinner(User user) {
+		
+	}
+}

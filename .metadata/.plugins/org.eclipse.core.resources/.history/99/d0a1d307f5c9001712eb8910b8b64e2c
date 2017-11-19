@@ -1,0 +1,10 @@
+package bdLeilao;
+
+import java.sql.Date;
+
+public class Leilao {
+
+	private Date iniDate;
+	private Date endDate;
+	private User ownerUser;
+}

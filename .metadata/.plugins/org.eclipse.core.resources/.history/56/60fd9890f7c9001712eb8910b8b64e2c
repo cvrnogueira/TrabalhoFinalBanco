@@ -1,0 +1,39 @@
+package bdLeilao;
+
+import java.sql.Date;
+import java.util.ArrayList;
+
+public class Leilao {
+
+	private Date iniDate;
+	private User ownerUser;
+	private double minimunPrice;
+	private User winnerUser; //usuario vencedor(está sempre sendo atualizado p o q dá o maior lance)
+	private String shortDescription;
+	private String longDescription;
+	private String category;
+	private ArrayList<Lances> Lances;
+	
+	public Leilao() {
+	//manda para o banco salvar o leilao criado
+	}
+	
+	public void endLeilao() {
+		
+	}
+	public void saveNewLance(User user, Double value) {
+		//salva no banco novos lances que a pessoa tenha feito
+		
+	}
+	public void cancelLance(User user, Double value) {
+		
+	}
+	public void showAllLances() {
+		//mostra todos os lances já feitos(pega do banco)
+		
+	}
+	public void actualWinner() {
+		//diz quem é o vencedor no momento
+		
+	}
+}

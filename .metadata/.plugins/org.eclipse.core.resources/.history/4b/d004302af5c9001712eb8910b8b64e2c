@@ -1,0 +1,5 @@
+package bdLeilao;
+
+public enum Category {
+
+}

@@ -1,0 +1,15 @@
+package bdLeilao;
+
+import dados.LeilaoDAO;
+
+public class User {
+	private String cpf;
+	private String email;
+	private LeilaoDAO banco;
+	
+	public User(String cpf, String email) {
+		//cria uma pessoa no banco
+		banco.inserirNovaPessoa(cpf, email);
+	}
+	
+}

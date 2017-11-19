@@ -1,0 +1,12 @@
+package bdLeilao;
+
+public class User {
+	private String cpf;
+	private String Id;
+	private String email;
+	
+	public User(String cpf, String Id, String email) {
+		//cria uma pessoa no banco
+	}
+	
+}

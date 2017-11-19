@@ -1,0 +1,14 @@
+package bdLeilao;
+
+import dados.LeilaoDAO;
+
+public class Lances {
+	private User user;
+	private Double value;
+	private LeilaoDAO banco;
+	
+	public Lances(User user, Double value) {
+		//cria um lance no banco
+		banco.inserirNovoLance(user.getCPF(), value);
+	}
+}

@@ -1,0 +1,12 @@
+package bdLeilao;
+
+public class Main {
+	   public static void mostrarMenu(){
+	        System.out.println("=============================");
+	        System.out.println("|     Agenda telefonica      |");
+	        System.out.println("=============================");
+	        System.out.println("\t 1. Listar Todos");
+	        System.out.println("\t 2. Incluir");
+	        System.out.println("\t 3. Buscar por nome");
+	    } 
+}

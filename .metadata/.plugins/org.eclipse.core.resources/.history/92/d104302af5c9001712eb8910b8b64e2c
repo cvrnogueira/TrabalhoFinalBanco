@@ -1,0 +1,8 @@
+package bdLeilao;
+
+public enum Category {
+	    Informatic,
+	    ACTIVE,
+	    INACTIVE,
+	    DELETED;
+}

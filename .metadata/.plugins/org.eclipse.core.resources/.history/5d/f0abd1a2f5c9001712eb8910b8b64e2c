@@ -1,0 +1,6 @@
+package bdLeilao;
+
+public class Lances {
+	private User user;
+	privae Double value;
+}

@@ -1,0 +1,43 @@
+!SESSION 2017-11-15 08:42:52.877 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.fullversion=JRE 1.8.0 IBM J9 2.8 Windows 8 amd64-64 Compressed References 20160106_284759 (JIT enabled, AOT enabled)
+J9VM - R28_20160106_1341_B284759
+JIT  - tr.r14.java_20151209_107110.02
+GC   - R28_20160106_1341_B284759_CMPRSS
+J9CL - 20160106_284759
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-15 08:44:00.979
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\arthu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-11-15 10:18:24.586
+!MESSAGE An internal error occurred during: "Polling news feeds".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.recommenders.internal.news.rcp.FeedDescriptors.getRegisteredFeeds(FeedDescriptors.java:43)
+	at org.eclipse.recommenders.internal.news.rcp.NewsRcpPreferences.getFeedDescriptors(NewsRcpPreferences.java:59)
+	at org.eclipse.recommenders.internal.news.rcp.poll.PollFeedsJob.run(PollFeedsJob.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2017-11-19 16:57:06.078 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.fullversion=JRE 1.8.0 IBM J9 2.8 Windows 8 amd64-64 Compressed References 20160106_284759 (JIT enabled, AOT enabled)
+J9VM - R28_20160106_1341_B284759
+JIT  - tr.r14.java_20151209_107110.02
+GC   - R28_20160106_1341_B284759_CMPRSS
+J9CL - 20160106_284759
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-19 16:57:30.449
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\arthu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
